@@ -17,7 +17,7 @@ body{
 
 header{
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-image: url("../images/firstbg1.png");
     background-size: cover; /* Adjust fit as needed */
     background-position: center; 
@@ -788,4 +788,173 @@ margin-top: 20px;
  
 .section6 .footer-s3{
   margin-top: 60px;
+}
+
+
+.section7{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/sec7bg.png");
+  background-size: cover; /* Adjust fit as needed */
+  background-position: center; 
+  padding-top: 100px;
+  padding-bottom: 100px;  
+  text-align: start;
+
+}
+.section7 .container .row .col-lg-4{
+align-items: center;
+justify-items: center;
+margin-top: 100px;
+padding: 30px 20px;
+}
+
+
+
+
+.section7 .container .row .work-card{
+
+  margin: 10px 0;
+  padding: 30px 20px;
+  max-height: 170px;
+  max-width: 190px;
+  text-align: center;
+  min-height: 170px;
+  border-radius: 8px 40px;
+  box-shadow: 0 3.4px 2.7px -30px rgba(0,0,0,.059), 0 8.2px 8.9px -30px rgba(0,0,0,.071), 0 25px 40px -30px rgba(0,0,0,.2);
+}
+.work-card p {
+  font-family: Poppins, sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  margin: 5px 0 0;
+  padding: 0 12px;
+}
+
+
+.section7 .spn{
+  color: #e60072;
+  font-size: 16px;
+  margin: 0 0 15px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+
+}
+.section7 h2{
+  font-size: 40px;
+  line-height: 52px;
+  font-family: Poppins,sans-serif;
+  color: #050748;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: start;
+
+
+}
+.section7 p{
+  font-size: 17px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6a6a8e;
+  font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+.cd1{ background:  #70e4e8;
+}
+.cd2{ background: #f5eb92;
+
+}
+.cd3{ background: 
+  #A3FFE2
+}
+.cd4{ background: 
+  #FFBC7A
+}
+.cd5{ background: 
+  #E3FF8E
+}
+.cd6{ background: 
+  #FFA0C6
+}
+.cd7{ background: 
+  #F3A6FF
+}
+.cd8{ background: 
+  #97FFAF
+}
+
+.cd9{ background: 
+  #6CFFFA
+}.cd10{ background: 
+  #77BAFF
+}
+
+.cd11{ background: 
+  #FFEFD4
+}
+.cd12{ background: 
+  #7AFFDB
+}
+
+
+.section8{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/sec8bg.png");
+  background-size: cover; /* Adjust fit as needed */
+  background-position: center; 
+  padding-top: 100px;
+  padding-bottom: 100px;  
+  text-align: start;
+
+}
+
+
+.section8 .spn{
+  color: #e60072;
+  font-size: 16px;
+  margin: 0 0 15px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+
+}
+.section8 h2{
+  font-size: 40px;
+  line-height: 52px;
+  font-family: Poppins,sans-serif;
+  color: #050748;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: start;
+
+
+}
+.section8 p{
+  font-size: 17px;
+  line-height: 28px;
+  font-family: 'Open Sans',sans-serif;
+  color: #6a6a8e;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section8 img{
+  border-radius: 100%;
+  width: 80px;
 }
