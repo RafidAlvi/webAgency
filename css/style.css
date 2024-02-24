@@ -686,9 +686,12 @@ justify-content: center;
 .section6 .row {
   margin-top: 50px;
   justify-content: center;
+  text-align: center;
 
 }
+
 .section6 .row img{
+margin-top: 20px;
  background: #FFFFFF;
  box-shadow: -20px 20px 40px #ece0f2, 20px -20px 40px #fff8ff;
 }
