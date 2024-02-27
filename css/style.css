@@ -554,11 +554,11 @@ header .container p {
 
 .section4 .icon {
   background-color: white;
-  padding: 15px;
+  padding: 20px;
   width: fit-content;
   border-radius: 8px 40px;
-  align-items: center;
-  text-align: center;
+
+  align-self: center;
 
 }
 
@@ -593,6 +593,7 @@ header .container p {
 
 .section4 .row {
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .section4 .row .col-lg-6 {
@@ -612,6 +613,9 @@ header .container p {
 .section4 .lowerpart {
   margin: 70px 50px;
 }
+.section4 .lowerpart .portion{
+  margin: 20px 20px;
+}
 
 .section4 .lowerpart .text p {
   font-size: 18px;
@@ -625,6 +629,7 @@ header .container p {
 .section4 .lowerpart .img-fluid {
   width: 46px;
   height: 46px;
+
 
 }
 
