@@ -10,11 +10,13 @@ body {
   font-weight: 400;
   color: #050748 !important;
   height: auto;
+  position: relative;
 }
 
 
 
 header {
+ 
   width: 100%;
   height: auto;
   background-image: url("../images/firstbg1.png");
@@ -28,10 +30,11 @@ header {
 
 .navbar {
   background: transparent;
-  position: -webkit-sticky;
   position: sticky;
-  overflow: hidden;
-  z-index: 55;
+  top: 0;
+    overflow: hidden;
+  z-index: 10000;
+
 
 }
 
@@ -41,10 +44,12 @@ header {
   font-optical-sizing: auto;
   font-weight: 600;
   margin-left: 20px;
+
 }
 
 
 .callbt {
+
   width: 50px;
   height: 50px;
   background: linear-gradient(90deg, #ff00a2 0%, #9d34d5 80%);
@@ -58,12 +63,15 @@ header {
 }
 
 .callbt:hover {
+
   scale: 1.15;
   transition: 1.2s cubic-bezier(.17, .85, .438, .99);
 
 }
 
 .reqbtn a {
+  position: relative;
+
   width: 180px;
   height: 50px;
   background: linear-gradient(90deg, #782d96 0%, #4862D1 35%, #1d76c9 100%);
@@ -116,6 +124,7 @@ header {
   } */
 
 .daynight {
+
   height: 25px;
   width: 25px;
   background-color: #ffc400;
@@ -147,8 +156,7 @@ header .container {
 
 .contents-1 {
 
-
-  padding: 50px 0px 50px 20px;
+padding-top: 50px;
   margin: 0;
 
 
@@ -173,8 +181,11 @@ header .container h1 {
 
       }
       @media (max-width: 800px){
-        font-size: 2.5rem;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0;
         text-align: center;
+        font-weight: 900;
 
       }
 }
@@ -480,9 +491,9 @@ header .container p {
 
   }
   @media (max-width: 800px){
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 20px;
 
   }
 
@@ -821,9 +832,9 @@ header .container p {
 
   }
   @media (max-width: 800px){
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
     line-height: 20px;
 
   }  font-weight: 400;
@@ -1307,10 +1318,11 @@ right: 0;
   top: 5px;
   }
   @media (max-width: 800px){
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
     line-height: 20px;
+    width: 100%;
     right: 0;
   top: 80px;
   left: 0;
